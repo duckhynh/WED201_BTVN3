@@ -5,22 +5,20 @@
     <title>Smart Happy Home </title>
     <link rel="stylesheet" href="style.css">
 </head>
-<div> 
-    <div> 
-        <img src="Logosmart.png" alt="Smart Happy Home">
-    </div>
-
-    <div> 
+<div class = "Header"> 
+	<div class = "logo"> 
+		<img src="Logosmart.png" alt="">
+	</div> 
+    <div class = "menu">
         <ul>
-            <li><a href="#">Home</a></li> 
-            <li><a href="#">About</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Serviecs</a></li>
-            <li><a href="#">Contact</a></li> 
-        </ul> 
-    </div>
-
-    <div class="Intro">
+           <li><a href="#" class = "highlight">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Products</a></li>
+           <li><a href="#">Services</a></li>
+           <li><a href="#">Contact</a></li>
+       </ul>
+   </div>
+    <div class="Smarthome">
         <div class="Intro-left">
             <h2>What is a smart home?</h2>
         <div class="Intro-line"></div>
@@ -37,15 +35,15 @@
             <div class="discount-bestseller-lighting">
                 <img src="chieusang.png" alt="lighting">
                 <h3>Smart Lighting System</h3>
-                <p class="discount-bestseller-lighting-price"><del>300$ </del>&nbsp;&nbsp; 230$</p>
-                <div class="discount-bestseller-lighting-buy">Buy Now</div>
+                <p class="discount-price"><del>300$ </del>&nbsp;&nbsp; 230$</p>
+                <div class="discount-buy">Buy Now</div>
             </div>
 
             <div class="discount-bestseller-security">
 				<img src="anninhthongminh.jpg" alt="Smart security" />
 				<h4>Smart security</h4>
-				<p class="discount-bestseller-security-price"> <del>450$</del> &nbsp; &nbsp;  400$ </p>
-				<div class="discount-bestseller-security-buy">Buy Now</div>
+				<p class="discount-price"> <del>450$</del> &nbsp; &nbsp;  400$ </p>
+				<div class="discount-buy">Buy Now</div>
 			</div>
         </div>
 
@@ -90,15 +88,13 @@
 
 
         </table>
-
-
         </div>
 
     </div>
-    <div class="consultation-section"> 
+    <div class="consultation"> 
         <h1>CONSULTATION AND INSTALLATION QUOTE</h1>
 
-        <div class="consultation-image">
+        <div class="consultation-img">
             <img src="tuvan.jpg" alt="SmartHome" />
         </div>
 
@@ -107,24 +103,25 @@
                 <p>Please fill in the following information</p>
                 <p>Smarthappyhome will contact you to support you immediately</p>
 
-                <div>
-                    <label>FullName</label>
-                    <input type="text" name="fullname" />
+                <div class = Info>
+                    <label class = "name">FullName</label>
+                    <input class = "name" type="text" name="fullname" />
                 </div>
 
-                <div>
-                    <label>Phone</label>
-                    <input type="text" name="phone" />
+                <div class = Info>
+                    <label class = "phone">Phone</label>
+                    <input class = "phone" type="text" name="fullname" />
                 </div>
 
-                <div>
-                    <label>Address</label>
-                    <input type="email" name="address" />
+                <div class = Info>
+                    <label class = "address">Address</label>
+                    <input class = "address"type="email" name="fullname" />
                 </div>
 
-                <div class="form-buttons">
-                    <input type="submit" value="Send" class="button"/>
-                    <input type="reset" value="Cancel" class="button"/>
+
+                <div class = form-buttons>
+                    <button class = "send">Send</button>
+                    <button>Cancel</button>
                 </div>
             </form>
         </div>

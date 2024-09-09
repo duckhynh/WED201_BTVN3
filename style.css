@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.Header .img {
+    display: flex;
+    justify-content: center;
+    background: #ebebeb;
+    padding: 20px;
+}
+
+.logo img {
+    width: 30%;
+    margin: 20px 0;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 50;
+    background-color: #14A79F;
+    margin: 50;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+}
+
+.menu .highlight {
+    background: #F79432;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.Smarthome {
+    display: flex;
+    align-items: center;
+    background: #ebebeb;
+    padding: 40px 20px;
+}
+
+.Smarthome img {
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+}
+
+.Intro-left {
+    text-align: left;
+    width: 50%;
+}
+
+.Intro-right h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.Intro-left p {
+    padding: 0 20px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.Intro-left .line {
+    background: #14A79F;
+    height: 5px;
+    width: 20%;
+    margin: 10px 0 0 auto;
+}
+
+.discount {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background: #ebebeb;
+}
+
+.discount img {
+    padding: 20px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.discount h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.discount h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.discount .discount-price {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+    margin: -10px 0;
+}
+
+.discount del {
+    color: gray;
+    font-size: 14px;
+}
+
+.discount .discount-buy {
+    display: flex;
+    color: white;
+    background: #F79432;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: 10px auto 0 auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.discount-sale h1 {
+    text-align: center;
+    color: #14A79F;
+    margin-bottom: 20px;
+}
+
+.discount-sale table {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.discount-sale table th, .discount-sale table td {
+    padding: 10px;
+    border: 1px solid #14A79F;
+    text-align: center;
+}
+
+.discount-sale table th {
+    background: #14A79F;
+    color: white;
+}
+
+.consultation {
+    background: #ebebeb;
+    padding: 40px 20px;
+}
+
+.consultation h1 {
+    text-align: center;
+    color: #14A79F;
+    margin-bottom: 20px;
+}
+
+.consultation .name {
+    justify-content: center;
+}
+
+.consultation-img {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+form p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Info{
+    margin-left: -30%;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.Info label{
+    color: #F79432;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Info input{
+    width: 400px;
+    height: 20px;
+}
+
+.Info input.name{
+    margin-left: 0;
+}
+
+.Info input.phone{
+    margin-left: 0;
+    
+}
+
+.Info input.address{
+    margin-left: 0;
+}
+
+.form-buttons button{
+    background: #F79432;
+    color: white;
+    border: none;
+    padding: 10px 20px ;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.form-buttons button.send{
+    padding: 10px 20px;
+}
+
+
+.footer {
+    background: #14A79F;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.footer p, .footer h4 {
+    margin: 0;
+}
