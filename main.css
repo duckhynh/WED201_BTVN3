@@ -1,0 +1,21 @@
+.Intro{
+    display: flex;
+    justify-content:space-between;
+    background-color: #e4eaf4;
+}
+.Intro-left h2{
+    text-align: right;
+    margin-right: 25px;
+    font-size: 30px;
+}
+
+.Intro-right img{
+    display: block;
+    width: 500px;
+}
+.Intro-line{
+    width: 100px;
+    height: 3px;
+    background-color: #ff1313;
+    margin-left: 360px;
+}
